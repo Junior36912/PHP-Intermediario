@@ -77,9 +77,6 @@ exibeMensagemLancamento($filme['ano']);
 // Exibe o nome do filme com detalhes usando var_dump
 var_dump($filme['nome']);
 
-// Exemplo omitido de outros códigos
-# código omitido
-
 // Exibe uma variável chamada $notas (não foi declarada no exemplo)
 var_dump($notas);
 
@@ -96,17 +93,11 @@ var_dump($menorNota);
 // Exibe o nome do filme novamente
 var_dump($filme['nome']);
 
-// Código omitido
-# código omitido
-
 // Exibe o nome do filme
 var_dump($filme['nome']);
 
 // Verifica se o caractere ':' existe no nome do filme e exibe sua posição
 var_dump(strpos($filme['nome'], ':'));
-
-// Código omitido
-# código omitido
 
 // Exibe o nome do filme
 var_dump($filme['nome']);
@@ -116,9 +107,6 @@ $posicaoDoisPontos = strpos($filme['nome'], ':');
 
 // Exibe a posição encontrada (ou false, se não existir)
 var_dump($posicaoDoisPontos);
-
-// Código omitido
-# código omitido
 
 // Obtém uma substring do nome do filme que vai do início até a posição do caractere ':'
 // Caso o caractere ':' não exista, o resultado será false
